@@ -38,16 +38,10 @@ namespace NumericalMethods
 
         static void Main()
         {
-            // Interpolacja:
-            // http://www.algorytm.org/procedury-numeryczne/interpolacja-wielomianowa.html
-
-            // Gauss:
-            // https://eduinf.waw.pl/inf/alg/001_search/0076.php
-
             var args = new Input
             {
-                Xs = new List<double> {2, 3, 6, 7, 8, 10},
-                Ys = new List<double> {0, 2, 3, 5, 1, 2},
+                Xs = new List<double> {1.5, 2, 2.5, 3.5, 3.8, 4.1},
+                Ys = new List<double> {2, 5, -1, 0.5, 3, 7},
             };
 
             var output = Interpolation(args);
