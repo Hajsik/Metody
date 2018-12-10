@@ -60,7 +60,7 @@ namespace NumericalMethods
                 Console.Write($"{double_position_after_comma}x^{i} + ");
             }
 
-			Console.ReadKey();
+            Console.ReadKey();
         }
     }
 }
